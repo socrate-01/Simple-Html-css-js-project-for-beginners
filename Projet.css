@@ -1,0 +1,159 @@
+.boxed {
+    border: 2px solid rgb(15, 18, 15) ;
+    margin-left: 230px;
+    margin-right: 230px;
+  } 
+.langage1{
+    text-align: left;
+    font-size: 35px;
+    background-color: #f4d5e5;
+    color: #f82d95;
+    margin-left: 200px;
+    margin-right: 360px;
+    border:2px solid #e11a9f;
+    
+}
+#others{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+      }
+
+#others div {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+.langage2 {
+    background-color: #90f8f5;
+    color: #3fb6ed;
+    font-size: 33px;
+    text-align: left;
+    margin-left: 100px;
+    width: 270px;
+    border:2px solid #1ab3e1;
+    
+  }
+.langage3 {
+    background-color: #cfe15d;
+    color: #b1a827;
+    font-size: 35px;
+    text-align: left;
+    border:2px solid #98912d;
+  }
+
+  .textPuce{ 
+        float: left; 
+        width: 50%; 
+  }
+  li {
+    color: black;
+    display: list-item;
+    list-style-image: url(project.png);
+  }
+  .general { 
+    width: 170%; 
+    margin-left: 10px;
+} 
+.button{
+    text-align: center;
+    color: #027ab1;
+    height: 15px;
+    background-color: pink;
+    border: 2px solid rgb(251, 96, 212) ;
+    margin-left: 5px;
+    border-radius:5px;
+    margin-top: 1px;
+    padding:8px 10px;
+    padding-bottom: 8px;
+    justify-content: center;
+    height: 40px;
+}
+.button:hover {
+    background-color: #e11a9f;
+    color:white;
+  }
+
+table
+{
+    border-collapse: collapse;
+    border: black;
+}
+td, th 
+{
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 10px;
+}
+.part{
+    border-right: none;
+    border-top: 3px solid black;
+}
+.part2{
+    /*border-left: none;*/ 
+    border-top: 3px solid black;
+    margin-left: 10px;
+}
+.part3{
+    /*border-bottom: none;*/
+    padding-top: 15px;
+    border-top: 3px solid black;
+}
+.part4{
+    /*border-top: none; */
+}
+.partie3 { 
+    margin-left: 10px;
+} 
+.couleur {
+    background-color: pink;
+    color: #f82d95;
+}
+.bordure{
+    background-color: pink;
+    color: #f82d95;
+    border-top: 3px solid black;
+}
+.positionnement{
+    background-color: pink;
+    color: #f82d95;
+}
+.session1{
+    background-color: rgb(152, 206, 240);
+    color:blue;
+}
+.session2{
+    background-color:rgb(152, 206, 240);
+    color: blue;
+}
+.session3{
+    background-color: rgb(152, 206, 240);
+    color: blue;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.container{
+    transition: transform .2s;
+  }
+a:hover{
+    font-size: 18px;
+}
+.firstletter{
+    font-size: 2em;
+}
+.lastpart{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.partsession1{
+    text-align: justify;
+}
+.partsession2{
+    text-align: justify;
+}
+.partsession3{
+    text-align: justify;
+}
